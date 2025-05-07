@@ -64,17 +64,19 @@ worker = 4    # 메모리 절약을 위해 작은 사이즈 (default = 8)
 
 
 **결과**
-| model | train time | mAP50 |
-| --- | --- | --- |
-| yolov8n | 2536.19s | 0.5756 |
-| yolov8m | 3352.43s | 0.6082 |
-| yolov8x | 6896.36s | 0.6286  |
-| yolov9e | 9086.95 | 0.5846 |
-| yolo11n | ... | ... |
-| yolo11m | ... | ... |
-| yolo11x | ... | ... |
+| model | train time (초) | mAP50 | 실험 과정 |
+| --- | --- | --- | --- |
+| yolov8n | 2536.19 | 0.5756 | [yolov8n.ipynb](./ModelSelection/yolov8n.ipynb) | 
+| yolov8m | 3352.43 | 0.6082 | [yolov8m.ipynb](./ModelSelection/yolov8m.ipynb) | 
+| yolov8x | 6896.36 | 0.6286 | [yolov8x.ipynb](./ModelSelection/yolov8x.ipynb) | 
+| yolov9e | 9086.95 | 0.5846 | [yolov9e.ipynb](./ModelSelection/yolov9e.ipynb) | 
+| yolo11n | 2681.28 | 0.5643 | [yolo11n.ipynb](./ModelSelection/yolo11n.ipynb) | 
+| yolo11m | ... | ... | ... | 
+| yolo11x | ... | ... | ... | 
 
-따라서 yolo11m을 사용하기로 결정 (결과적으로는 정확도를 위해 11x 또한 활용함)
+> `정확도`가 가장 중요하지만, 대회가 딱 7일간 짧게 진행되고, 모델을 100epochs 이상 작업하려면 `학습 시간`도 고려해야 했음.
+>
+> 따라서 종합적으로 판단한 결과 yolo11m을 사용하기로 결정 (결과적으로는 정확도를 위해 11x 또한 활용함)
 
 ---
 ### YOLO11
