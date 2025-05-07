@@ -1,6 +1,6 @@
 # SSAFY AI 챌린지
 
-![alt text](image.png)
+![alt text](./images/image.png)
 
 ### Overview
 
@@ -30,7 +30,7 @@ SSAFY AI 챌린지에서는 여러분이 바로 그 탐정이 됩니다!
 
 - 📷 내가 직접 찍은 도로 사진도 학습 데이터로 포함!모델 성능이 쭉쭉!
 
-![alt text](image-1.png)
+![alt text](./images/image-1.png)
 
 ---
 
@@ -74,7 +74,7 @@ AI 기반 포트홀 감지는 다음과 같은 이점을 제공합니다.
 
 추가적으로 IoU (Intersection over Union), Precision, Recall 등의 보조 지표를 참고합니다.
 
-![alt text](image-2.png)
+![alt text](./images/image-2.png)
 
 - mAP@IoU 0.5
   - IoU가 0.5 이상일 때 정답(True Positive)으로 간주하여 평균 정밀도(AP)를 계산하고, 전체 클래스에 대해 평균을 구함
@@ -101,7 +101,7 @@ test1.jpg,  0,        0.436,    0.546,   0.373,    0.235
 
 - 예측 좌표 시각화(X, Y, Width, Height)
 
-![alt text](image-3.png)
+![alt text](./images/image-3.png)
 
 제출 파일 Column 상세
 
