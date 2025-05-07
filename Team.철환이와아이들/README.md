@@ -71,7 +71,7 @@ worker = 4    # 메모리 절약을 위해 작은 사이즈 (default = 8)
 | yolov8x | 6896.36 | 0.6286 | [yolov8x.ipynb](./ModelSelection/yolov8x.ipynb) | 
 | yolov9e | 9086.95 | 0.5846 | [yolov9e.ipynb](./ModelSelection/yolov9e.ipynb) | 
 | yolo11n | 2681.28 | 0.5643 | [yolo11n.ipynb](./ModelSelection/yolo11n.ipynb) | 
-| yolo11m | ... | ... | ... | 
+| yolo11m | 3834.71 | 0.5898 | [yolo11m.ipynb](./ModelSelection/yolo11m.ipynb) | 
 | yolo11x | ... | ... | ... | 
 
 > `정확도`가 가장 중요하지만, 대회가 딱 7일간 짧게 진행되고, 모델을 100epochs 이상 작업하려면 `학습 시간`도 고려해야 했음.
